@@ -1,0 +1,412 @@
+{
+    "model": "models.models.Dashboard",
+    "data": [
+        {
+            "superset_dashboard_id": 8,
+            "name": "Обращения",
+            "layer_id": 76,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-xKX29c0kr",
+                        "field_name": "azs",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-eJMq6a58o",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-mAd1xnln8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-WkRJN0th2",
+                        "field_name": "complaints.status",
+                        "value": "Открыто, В работе"
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 7,
+            "name": "Неисполненные заявки АЗС",
+            "layer_id": 76,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-yMJp8bXsx",
+                        "field_name": "azs",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-HAx-Co4q6",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-PU9iSrIV8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 12,
+            "name": "Действующие цены на топливо АЗС \"Татнефть\"",
+            "layer_id": 76,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-N3dKjVgnZ",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-hcPMQ3shq",
+                        "field_name": "azs",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-vPQyINX8z",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 9,
+            "name": "Простои",
+            "layer_id": 76,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-2r5-W_mhY",
+                        "field_name": "azs",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-FTi5fxkRw",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-uhL55gl_B",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 6,
+            "name": "Паспорт АЗС",
+            "layer_id": 76,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-FsbbMJPkX",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-MkXWPg2jY",
+                        "field_name": "azs",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-wz0SdM1pU",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 8,
+            "name": "Обращения",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-eJMq6a58o",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-mAd1xnln8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-WkRJN0th2",
+                        "field_name": "complaints.status",
+                        "value": "Открыто, В работе"
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 7,
+            "name": "Неисполненные заявки АЗС",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-HAx-Co4q6",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-PU9iSrIV8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 15,
+            "name": "Средняя стоимость топлива по филиалам",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-FBK5EXcGq",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-OtpwXUzQd",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 9,
+            "name": "Простои",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-TaJHb7T5M",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-uhL55gl_B",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 4,
+            "name": "Неисполненные заявки филиалов и РБЕ",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-6PUAfflzT",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-ajK0XMw9c",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 5,
+            "name": "Паспорт филиалов и РБЕ",
+            "layer_id": 81,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-Npdo_YaLG",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-Vc82oO4Wm",
+                        "field_name": "naimenovanie_filiala",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 8,
+            "name": "Обращения",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-mAd1xnln8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                },
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-WkRJN0th2",
+                        "field_name": "complaints.status",
+                        "value": "Открыто, В работе"
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 7,
+            "name": "Неисполненные заявки АЗС",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-PU9iSrIV8",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 15,
+            "name": "Средняя стоимость топлива по филиалам",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-FBK5EXcGq",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 9,
+            "name": "Простои",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-uhL55gl_B",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 4,
+            "name": "Неисполненные заявки филиалов и РБЕ",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-6PUAfflzT",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        },
+        {
+            "superset_dashboard_id": 5,
+            "name": "Паспорт филиалов и РБЕ",
+            "layer_id": 79,
+            "!filters": [
+                {
+                    "model": "models.models.DashboardFilter",
+                    "data": {
+                        "filter_id": "NATIVE_FILTER-Npdo_YaLG",
+                        "field_name": "naimenovanie_rbe",
+                        "value": null
+                    }
+                }
+            ]
+        }
+    ]
+}

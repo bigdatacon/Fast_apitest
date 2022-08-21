@@ -1,0 +1,165 @@
+{
+    "model": "models.models.Layer",
+    "data": [
+        {
+            "id": 11,
+            "name": "Кадастровые деления",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 13,
+            "name": "Земельные деления",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 14,
+            "name": "Зоны с особыми условиями использования",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 104,
+            "name": "Города с численностью более 500тыс. Человек",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 98,
+            "name": "Железнодорожные станции",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 96,
+            "name": "Железные дороги",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 106,
+            "name": "ЛЭП",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 94,
+            "name": "Шинные отходы",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 120,
+            "name": "Автомобильные дороги",
+            "layer_type_id": 1,
+            "icons": null,
+            "search_fields": null,
+            "view_fields": null
+        },
+        {
+            "id": 76,
+            "name": "АЗС Татнефти",
+            "layer_type_id": 2,
+            "icons": {"fieldName": "condition", "active": { "icon": "gasStation" }, "inActive": { "icon": "gasStationInactive", "fieldValue": "на реконструкции" }},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        },
+        {
+            "id": 79,
+            "name": "РБЕ",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "gasStation" }, "inActive": null},
+            "search_fields": "name, address",
+            "view_fields": "name, email, phone, address"
+        },
+        {
+            "id": 81,
+            "name": "Филиалы",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "gasStation" }, "inActive": null},
+            "search_fields": "naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "naimenovanie_filiala, naimenovanie_rbe, email, phone, address"
+        },
+        {
+            "id": 7,
+            "name": "АЗС конкурентов",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "competitorGasStation" }, "inActive": null},
+            "search_fields": "name, management_company",
+            "view_fields": "name, management_company"
+        },
+        {
+            "id": 74,
+            "name": "НПЗ и ГПЗ Татнефть",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "oilGasFactory" }, "inActive": null},
+            "search_fields": "name, address",
+            "view_fields": "name, address"
+        },
+        {
+            "id": 72,
+            "name": "НПЗ и ГПЗ конкурентов",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "competitorOilGasFactory" }, "inActive": null},
+            "search_fields": "name, address",
+            "view_fields": "name, address, info"
+        },
+        {
+            "id": 115,
+            "name": "Кафе",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "cafe" }, "inActive": null},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        },
+        {
+            "id": 117,
+            "name": "Шинные центры",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "tireMall" }, "inActive": null},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        },
+        {
+            "id": 108,
+            "name": "Магазины",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "store" }, "inActive": null},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        },
+        {
+            "id": 111,
+            "name": "Автомойки",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "carWash" }, "inActive": null},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        },
+        {
+            "id": 113,
+            "name": "Мотели",
+            "layer_type_id": 2,
+            "icons": {"fieldName": null, "active": { "icon": "motel" }, "inActive": null},
+            "search_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address",
+            "view_fields": "azs, naimenovanie_filiala, naimenovanie_rbe, address"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "model": "models.models.LayerType",
+    "data": [
+        {
+            "id": 1,
+            "name": "info"
+        },
+        {
+            "id": 2,
+            "name": "object"
+        }
+    ]
+}
